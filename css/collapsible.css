@@ -1,0 +1,83 @@
+.collapsible-pos-wrapper {
+    margin-bottom: 40px;
+}
+
+.collapsible-pos {
+  font-family: "Jost", sans-serif;
+    background: black;
+    /* color: black; 
+    cursor: pointer;
+    border-radius: 70px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px; */
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    width: 100%;
+    color: white;
+  }
+  
+  .content-pos {  
+    background: white;
+    border-radius: 15px;
+    max-height: 0;
+    color: black;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+  }
+
+  .textbox-pos {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+
+  .textbox-pos p {
+    font-size: 14px !important;
+  }
+
+  .textbox-pos li {
+    font-size: 14px !important;
+  }
+  
+   .active-pos, .collapsible-pos:hover {
+    background: #fecb02;;
+    
+  }
+  
+  .content-pos a{
+    padding: 6px 25px;
+    color: #fecb02;
+    border-radius: 4px;
+    margin-top: 6px;
+    border: 2px solid #fecb02;
+  }
+  
+  .content-pos:hover a {
+    background: #fecb02;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    color: #fff;
+  }
+
+  .collapsible-pos:after{
+    content: '+'; 
+    font-size: 24px;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .active-pos:after {
+    content: "-"; 
+  }
