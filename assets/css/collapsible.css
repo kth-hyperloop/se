@@ -3,7 +3,7 @@
 }
 
 .collapsible-pos {
-  font-family: "Jost", sans-serif;
+  font-family: "Lato", sans-serif;
     background: black;
     /* color: black; 
     cursor: pointer;
@@ -43,11 +43,11 @@
   }
 
   .textbox-pos p {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   .textbox-pos li {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
   
    .active-pos, .collapsible-pos:hover {
