@@ -636,10 +636,13 @@ h6 {
 /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
 }
+
+
 
 .section-bg {
   background-color: #f3f5fa;
@@ -1753,6 +1756,29 @@ section {
 .section-subtitle {
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+
+#sub_teams-join  {
+  margin-right: 2rem;
+  list-style: none;
+  border-radius: 50px;
+  position: relative;
+  
+}
+
+@media (min-width: 768px) {
+  #sub_teams-join {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+  }
+}
+
+@media (max-width: 768px) {
+  #sub_teams-join {
+    display: block
+  }
 }
 
 /*--------------------------------------------------------------
