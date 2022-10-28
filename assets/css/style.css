@@ -454,6 +454,7 @@ h6 {
   background-color: #1d1d1b;
   opacity: 0.5;
   z-index: 1;
+  text-align: center;
 }
 #hero .container {
   z-index: 2;
@@ -477,6 +478,7 @@ h6 {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
+  background: #fecb02;
   padding: 10px 28px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
@@ -486,7 +488,7 @@ h6 {
 
 }
 #hero .btn-get-started:hover {
-  background: #fecb02;
+  opacity: 80%;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -577,7 +579,7 @@ h6 {
 .arrow {
   opacity: 0;
   position: absolute;
-  left: 50%;
+  left: 49%;
   top: 95%;
   transform-origin: 50% 50%;
   transform: translate3d(-50%, -50%, 0);
@@ -586,7 +588,7 @@ h6 {
   .arrow {
     opacity: 0;
     position: absolute;
-    left: 46.5%;
+    left: 47%;
     top: 95%;
     transform-origin: 50% 50%;
     transform: translate3d(-50%, -50%, 0);
@@ -1060,11 +1062,11 @@ section {
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #1d1d1b;
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 0px;
 }
 .portfolio .portfolio-item .portfolio-info p {
-  color: #1d1d1b;
+  color: #256bc2;
   font-size: 14px;
   margin-bottom: 0;
 }
